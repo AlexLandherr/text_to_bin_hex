@@ -14,7 +14,7 @@ int main() {
         } else if (!std::cin) {
             std::cin.clear(); //Resets error state for std::cin.
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //Flushes std::cin buffer and removes bad input.
-            std::cerr << "Byte value was out of range!" << '\n';
+            std::cerr << "Something went wrong with the input!" << '\n';
         }
     }
 
